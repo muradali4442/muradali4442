@@ -1,33 +1,39 @@
-# Hi, I'm Murad Ali 👋
+=# Hi, I'm Murad Ali 👋
 
-AI Engineer in Ilmenau, Germany. I build production LLM/RAG systems, speech + document AI and pragmatic agentic workflows with strong evals, guardrails and observability.
+I build reliable software for search, speech and document understanding. I focus on turning unstructured files like invoices and PDFs into clean, usable data and on shipping services that are fast, stable and easy to observe.
 
-[Email](mailto:muraduetian@gmail.com) • [LinkedIn](https://www.linkedin.com/in/murad-ali-715a09150) • [Location: Ilmenau, DE](#)
+[Email](mailto:muraduetian@gmail.com) • [LinkedIn](https://www.linkedin.com/in/murad-ali-715a09150) • Ilmenau, Germany
 
----
+## What I work on
+- Document and invoice data extraction with OCR and layout aware models
+- Practical retrieval and grounding for question answering
+- Speech pipelines with accurate transcription on real world audio
+- Production systems with clear APIs, metrics and alerts
 
-## What I focus on
-- **LLMs & RAG:** grounding with vetted corpora, citations, rerankers, schema-aware chunking
-- **Speech & Doc AI:** Whisper/Wav2Vec2 pipelines; OCR + LayoutLMv3/Donut for invoices & tables
-- **Production:** FastAPI, Docker, CI/CD, vLLM, quantization, dynamic batching, streaming
-- **Safety & Evals:** PII scrubbing, refusal policies, golden sets, EM/F1, RAGAS, A/B tests, tracing
-
-## Impact highlights
-- Clinical assistant pilots: cut lookup time from minutes → seconds; **25–35% less** post-visit documentation  
-- Medical ASR: **WER 6 to 8 pts**; stable real-time latency  
-- Invoice extraction: **>90% F1** on vendor/VAT/IBAN/totals; reduced manual review  
-- Serving: **~30% median latency** drop via quantized inference + streaming
+## Impact
+- Clinical assistant pilots cut lookup time from minutes to seconds and reduced post visit documentation by about 25 to 35 percent
+- Speech models improved word error rate by 6 to 8 points while keeping real time behavior stable
+- Invoice extraction reached over 90 percent F1 on key fields and lowered manual review
+- Serving got about 30 percent faster at the median by using lower precision models and streaming tokens
 
 ## Selected projects
-- **Shift AI - LLM-Powered Shift Scheduling**: conflict-free plans via LangChain + Llama; FAISS constraints; FastAPI backend
-- **AI Agents Automation**: multi-agent router + tool use (Jira, Slack, RAG, PagerDuty), retries/backoff, HIL approvals, OTel tracing, k8s canaries
-- **Early Dyslexia Detection**: multimodal pipeline (handwriting + ASR); CatBoost with interpretable features
-- **Invoice DocAI**: OCR + LayoutLMv3 with LLM fallback for edge cases; dynamic batching & caching
-- **Clinical Consultation Assistant**: Vertex AI + Cloud Run; grounded answers with citations and PHI scrubbing
+- Shift scheduling assistant that generates conflict free plans and respects real constraints
+- Multi agent automation that files and routes work, posts updates to chat and looks up fixes from a knowledge base
+- Early dyslexia screening that combines handwriting analysis and speech features
+- Invoice processing pipeline that converts scans into line items with validation and confidence checks
+- Clinical consultation helper that surfaces grounded answers and scrubs sensitive data
 
-## Tech I use
-**Python, C++** • **FastAPI** • **LangChain/LangGraph/LlamaIndex** • **vLLM** • **FAISS/pgvector** •  
-**Whisper, Wav2Vec2** • **Tesseract, DocTR, LayoutLMv3, Donut** • **GCP/Vertex AI** • **PostgreSQL** • **Docker, CI/CD** • **Git, Jira**
+## Tools I use
+- Python and C++
+- FastAPI
+- FAISS and pgvector
+- Whisper and Wav2Vec2
+- Tesseract, DocTR, LayoutLMv3 and Donut
+- vLLM and Docker
+- GCP and Vertex AI
+- PostgreSQL
+- Git and simple CI
+- Dashboards and tracing
 
 ## How I work
-I value readable code, clear APIs, measurable impact, and tight feedback loops (evals + dashboards). Open to collaboration and problem reports—issues and PRs welcome!
+I like readable code, small interfaces and measurable results. I ship in small steps, watch the graphs and iterate. Open to collaboration and feedback. Issues and PRs are welcome.
