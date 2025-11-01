@@ -14,12 +14,12 @@ AI Engineer in Ilmenau, Germany. I build production LLM/RAG systems, speech + do
 
 ## Impact highlights
 - Clinical assistant pilots: cut lookup time from minutes → seconds; **25–35% less** post-visit documentation  
-- Medical ASR: **WER −6 to −8 pts**; stable real-time latency  
+- Medical ASR: **WER 6 to 8 pts**; stable real-time latency  
 - Invoice extraction: **>90% F1** on vendor/VAT/IBAN/totals; reduced manual review  
 - Serving: **~30% median latency** drop via quantized inference + streaming
 
 ## Selected projects
-- **Shift AI — LLM-Powered Shift Scheduling**: conflict-free plans via LangChain + Llama; FAISS constraints; FastAPI backend
+- **Shift AI - LLM-Powered Shift Scheduling**: conflict-free plans via LangChain + Llama; FAISS constraints; FastAPI backend
 - **AI Agents Automation**: multi-agent router + tool use (Jira, Slack, RAG, PagerDuty), retries/backoff, HIL approvals, OTel tracing, k8s canaries
 - **Early Dyslexia Detection**: multimodal pipeline (handwriting + ASR); CatBoost with interpretable features
 - **Invoice DocAI**: OCR + LayoutLMv3 with LLM fallback for edge cases; dynamic batching & caching
